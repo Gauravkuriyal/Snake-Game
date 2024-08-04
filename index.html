@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="score">
+        
+    </div>
+    <audio id="backgroundMusic" loop>
+        <source src="Snake Background 2.mp3" type="audio/mp3">
+    </audio>
+    <div class="board">
+        
+        <div class="sHeadBody snake">
+
+        </div>
+        <div id="sHead" class="snake">
+
+        </div>
+
+        <div class="target">
+
+        </div>
+    </div>
+
+    <div class="result">
+        SCORE :
+        <div class="result_score">
+
+        </div>
+        <button class="replay" onclick="replay()">REPLAY</button>
+    </div>
+
+    <div class="controls">
+        <img src="triangle.png" alt="" class="up">
+        <img src="triangle.png" alt="" class="left">
+        <img src="triangle.png" alt="" class="right">
+        
+        <img src="triangle.png" alt="" class="down">
+    </div>
+
+    <script src="background.js"></script>
+</body>
+
+</html>
